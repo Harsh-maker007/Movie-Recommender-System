@@ -13,7 +13,7 @@ Streamlit app that recommends similar movies from `movies.pkl` and fetches poste
 2. Configure TMDB API key in `.streamlit/secrets.toml`:
 
 ```toml
-TMDB_API_KEY="your_tmdb_api_key_here"
+TMDB_API_KEY="7775650bb3bdc769d21b089ee2a33d90"
 ```
 
 3. Start app:
@@ -30,7 +30,7 @@ TMDB_API_KEY="your_tmdb_api_key_here"
 4. In Streamlit app settings, add secret:
 
 ```toml
-TMDB_API_KEY="your_tmdb_api_key_here"
+TMDB_API_KEY="7775650bb3bdc769d21b089ee2a33d90"
 ```
 
 5. Save and redeploy.
