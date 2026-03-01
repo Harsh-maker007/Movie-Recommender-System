@@ -16,6 +16,12 @@ Streamlit app that recommends similar movies from `movies.pkl` and fetches poste
 TMDB_API_KEY="7775650bb3bdc769d21b089ee2a33d90"
 ```
 
+> **Note:** the deployed app will not show any posters unless the key is
+> correctly provided.  If you see the same image repeated for multiple
+> recommendations it's usually due to duplicate TMDB IDs in the dataset –
+> we now drop duplicates automatically, but make sure you regenerate your
+> pickle if you update the data.
+
 3. Start app:
 
 ```powershell
