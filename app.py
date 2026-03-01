@@ -44,11 +44,11 @@ def recommend(movie_title, movies_df, tag_sets, top_n=5):
 
 def get_tmdb_api_key():
     try:
-        key = st.secrets.get("7775650bb3bdc769d21b089ee2a33d90", "")
+        key = st.secrets.get("TMDB_API_KEY", "")
     except Exception:
         key = ""
     if not key:
-        key = os.getenv("7775650bb3bdc769d21b089ee2a33d90", "")
+        key = os.getenv("TMDB_API_KEY", "")
     return key
 
 
